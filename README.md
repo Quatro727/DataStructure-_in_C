@@ -10,4 +10,5 @@ Each code of directory is compiled and tested in Fedora Linux environment
 ```text
 .
 ├── README.md
-└── Lecture01: 1-Dimensional Array
+└── Chapter 01: Recursion
+└── Chapter 02: Stack
