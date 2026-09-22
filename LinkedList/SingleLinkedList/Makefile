@@ -1,12 +1,12 @@
 CC=gcc
 CFLAGS=-g -Wall
-OBJS=test2.o linked_list.o
-TARGET=test2.out
+OBJS=test.o linked_list.o
+TARGET=test.out
 
 $(TARGET): $(OBJS)
 			 $(CC) -o $@ $(OBJS)
 
-test2.o: test2.c linked_list.h
+test2.o: test.c linked_list.h
 linked_list.o: linked_list.c linked_list.h
 
 clean:
