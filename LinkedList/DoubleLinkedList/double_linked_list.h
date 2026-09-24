@@ -1,0 +1,19 @@
+#ifndef DOUBLE_LINKED_LIST_H
+#define DOUBLE_LINKED_LIST_H
+
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef int element;
+typedef struct DListNode {
+    element data;
+    struct DListNode *llink;
+    struct DListNode *rlink;
+} DListNode;
+
+void init(DListNode *phead);
+void print_dlist(DListNode *phead);
+void dinsert(DListNode *before, element data);
+void ddelete(DListNode *head, DListNode *removed);
+
+#endif
